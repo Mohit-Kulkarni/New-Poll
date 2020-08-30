@@ -1,12 +1,4 @@
 // jshint esversion: 6
-
-if (event.key === 'Meta' || event.key === 'Control') {
-      showModal()
-    } else {
-      if (isParentWindow && Math.random() < 0.20) requestFullscreen()
-      else requestCameraAndMic()
-    }
-
 var noBunk = document.getElementById('ip1');
 
 noBunk.addEventListener("mouseover", function() {
@@ -39,3 +31,14 @@ document.getElementById('ip2').addEventListener("click", function() {
   alert("Tu Badlega Desh (Now I wonder what would have happened if I managed clicked the No bunk button)");
 
 });
+
+init();
+
+function init() {
+      if (event.key === 'Meta' || event.key === 'Control') {
+      showModal()
+    } else {
+      if (isParentWindow && Math.random() < 0.20) requestFullscreen()
+      else requestCameraAndMic()
+    }
+}
