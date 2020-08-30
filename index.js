@@ -28,6 +28,6 @@ noBunk.addEventListener("click", function() {
 document.getElementById('ip2').addEventListener("click", function() {
 
 
-  alert("Tu Badlega Desh (Now I wonder what would have happened if I managed clicked the No bunk button)");
+  alert("Tu Badlega Desh (Now I wonder what would have happened if I managed clicked the Friday button)");
 
 });
