@@ -19,7 +19,7 @@ noBunk.addEventListener("mouseover", function() {
 
 noBunk.addEventListener("click", function() {
 
-  alert("Kya problem hai re bhai tera kyu Friday ko chahiye tereko class!??");
+  alert("Kya problem hai re bhai/behen tera kyu Friday ko chahiye tereko class!??");
   window.addEventListener('popstate', () => {
     window.history.forward()
   });
